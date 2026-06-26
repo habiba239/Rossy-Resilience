@@ -1,0 +1,30 @@
+# Task 1 — Mammogram Detection & Segmentation
+# Tested on Python 3.10+
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO detection
+ultralytics>=8.0.0
+
+# Segmentation models
+segmentation-models-pytorch>=0.3.3
+
+# Image processing
+opencv-python-headless>=4.8.0
+pydicom>=2.4.0
+Pillow>=10.0.0
+
+# Augmentation
+albumentations>=1.3.0
+
+# Data & utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Model hosting
+huggingface_hub>=0.17.0

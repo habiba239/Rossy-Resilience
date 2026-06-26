@@ -1,0 +1,27 @@
+# Task 2 — Multi-Modal Classification (Late Fusion)
+# Tested on Python 3.10+
+
+# Deep learning
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# Gradient boosting
+catboost>=1.2.0
+
+# Optimal transport
+scipy>=1.11.0
+
+# Image processing
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+
+# Data & utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Model hosting
+huggingface_hub>=0.17.0
+gdown>=4.7.0

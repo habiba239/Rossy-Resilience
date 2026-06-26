@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model weights & large binary files
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.bin
+*.weights
+runs/
+
+# Large data files (datasets not included)
+*.dcm
+*.dicom
+CBIS-DDSM/
+INbreast/
+BUS-BRA/
+BCDR/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Training outputs (checkpoints, logs)
+outputs/
